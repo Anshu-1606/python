@@ -8,3 +8,9 @@ print("Before:", data)
 add_entry(data)
 
 print("After:", data)
+
+
+
+#Output 
+#Before: {'name': 'Anshu'}
+#After: {'name': 'Anshu', 'age': 20}
