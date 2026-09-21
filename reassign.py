@@ -9,3 +9,7 @@ print("Before:", data)
 reassign_dict(data)
 
 print("After:", data)
+
+# Output
+#Before: {'name': 'Anshu'}
+#After: {'name': 'Anshu'}
