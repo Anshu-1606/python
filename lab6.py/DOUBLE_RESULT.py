@@ -1,0 +1,16 @@
+def double_result(func):
+    def wrapper(a, b):
+        result = func(a, b)
+        return result * 2
+    return wrapper
+
+
+@double_result
+def add(a, b):
+    return a + b
+
+
+print(add(5, 3))
+
+# Output 
+# 16
